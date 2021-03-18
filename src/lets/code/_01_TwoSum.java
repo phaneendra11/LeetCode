@@ -13,12 +13,12 @@
  * 
  * */
 
-package lets.code.problem1;
+package lets.code;
 
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class TwoSum {
+public class _01_TwoSum {
 
 	public int[] twoSum(int[] nums, int target) {
         int length = nums.length;
@@ -39,7 +39,7 @@ public class TwoSum {
     }
 	
 	public static void main(String[] args) {
-		TwoSum t = new TwoSum();
+		_01_TwoSum t = new _01_TwoSum();
 		
 		int[] response = t.twoSum(new int[] {2,7,11,15}, 9);
 		System.out.println(Arrays.toString(response));
